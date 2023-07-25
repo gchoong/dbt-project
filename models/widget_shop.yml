@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: source
+    database: PC_DBT_DB
+    schema: PUBLIC
+    tables:
+      - name: stripe_payments
+      - name: widget_shop_customers
+      - name: widget_shop_orders
