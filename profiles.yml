@@ -1,2 +1,15 @@
 config:
   static_parser: false
+default:
+  outputs:
+    dev:
+      account: ws73667.us-central1.gcp
+      database: pc_dbt_db
+      password: 
+      role: sysadmin
+      schema: DBT_GC
+      threads: 4
+      type: snowflake
+      user: gchoong
+      warehouse: compute
+  target: dev
