@@ -5,7 +5,7 @@ default:
     dev:
       account: ws73667.us-central1.gcp
       database: pc_dbt_db
-      password: 
+      password: testing
       role: sysadmin
       schema: DBT_GC
       threads: 4
